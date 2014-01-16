@@ -166,6 +166,12 @@ a:focus {
 
 }
 
+/* @tripu, 2014-01-16: …unless they're part of bulleted/numbered lists! */
+
+.step ul > li, .step ol > li {
+    text-align:         left;
+}
+
 /*
     ... and we enhance the styles for impress.js.
 
